@@ -6,7 +6,6 @@
 		<import addon="repository.spartacus" version="1.0"/>
 		<import addon="plugin.program.super.favourites" version="1.0.43" optional="true"/>
 	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio executable</provides>
 	</extension>
