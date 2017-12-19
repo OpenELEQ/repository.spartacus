@@ -2,19 +2,9 @@
 <addon id="plugin.program.tbs" name="Maintenance"  provider-name="TotalRevolution" version="4.4.4">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.python.koding.aio" version="0.5"/>
-		<import addon="plugin.program.super.favourites" version="1.0.43" optional="true"/>
 	</requires>
-		<extension point="xbmc.python.library"      library="default.py" />
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video audio image executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="kodi.context.item" library="context.py">
-		<item>
-			<label>Share...</label>
-			<visible>true</visible>
-		</item>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio image executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Maintenance - powered by TotalRevolution</summary>
