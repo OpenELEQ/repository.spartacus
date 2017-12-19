@@ -2,8 +2,10 @@
 <addon id="plugin.program.tbs" name="Maintenance" version="4.4.8" provider-name="Total Revolution">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.python.koding.aio" version="0.5"/>
+		<import addon="repository.spartacus" version="1.0"/>
+		<import addon="plugin.program.super.favourites" version="1.0.43" optional="true"/>
 	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio executable</provides>
 	</extension>
